@@ -1,0 +1,39 @@
+# Project TODO
+
+- [x] Modelar entidades relacionais para comandos, placeholders, favoritos, histórico e importações
+- [x] Cadastrar o catálogo inicial de slash prompts fornecido pelo usuário
+- [x] Criar homepage responsiva com busca, quatro áreas e comandos em destaque
+- [x] Implementar busca global e filtros combináveis por categoria, tipo, plataforma e objetivo
+- [x] Criar páginas públicas por comando com URL amigável, compartilhamento e SEO básico
+- [x] Implementar interpretação de placeholders e formulário dinâmico
+- [x] Implementar geração, edição, cópia e regeneração do prompt
+- [x] Implementar autenticação e área pessoal de favoritos e comandos recentes
+- [x] Persistir favoritos e histórico por usuário
+- [x] Criar área administrativa protegida para manutenção do catálogo
+- [x] Implementar importação administrativa em JSON e CSV
+- [x] Adicionar testes Vitest para geração, busca e regras de acesso
+- [x] Validar visualmente os fluxos desktop e mobile
+- [x] Executar checagem de tipos, build e testes
+- [x] Adicionar tabela/modelo de importações e fluxo de registro de importações administrativas
+- [x] Enriquecer o catálogo com metadados e templates específicos por comando, evitando campos hardcoded genéricos
+- [x] Implementar filtros combináveis de plataforma e objetivo no frontend e backend
+- [x] Criar rotas públicas reais por comando (/comandos/:slug) com SEO básico por página
+- [x] Persistir favoritos e histórico via tRPC/DB no frontend e criar a área pessoal para exibí-los
+- [x] Adicionar testes para geração de prompt, busca/filtros e proteção admin/auth
+- [x] Validar visualmente os fluxos desktop e mobile com evidência de navegador
+- [x] Implementar ações administrativas completas na UI: editar, excluir, ativar/desativar e destacar
+- [x] Fortalecer a importação JSON/CSV com validação, parser de CSV com aspas e tratamento de duplicidades
+- [x] Individualizar ainda mais metadados e templates do catálogo por comando
+- [x] Popular os filtros de plataforma e objetivo dinamicamente a partir do catálogo
+- [x] Fazer a área pessoal consumir favoritos e recentes persistidos via tRPC/DB
+- [x] Adicionar testes negativos de autorização para procedures protected e admin
+- [x] Adicionar ação de reativação na UI administrativa e refletir estado ativo/inativo
+- [x] Tratar duplicidades de importação contra comandos já existentes no banco com importação resiliente
+- [x] Refinar cada template com contexto e finalidade específicos do comando, reduzindo agrupamentos genéricos
+- [x] Corrigir a lógica local de ativar/desativar e carregar estado ativo real no console admin
+- [x] Tratar conflitos de slug e slashCommand por item na importação sem interromper o lote
+- [x] Criar templates específicos por comando com instruções orientadas ao catálogo, sem depender apenas de moldes amplos
+- [x] Corrigir o toggle de ativação para adicionar o slug ao estado inativo ao desativar e removê-lo ao reativar
+- [x] Substituir os moldes agrupados por um mapeamento detalhado de templates específicos por slug
+- [x] Implementar um mapeamento explícito de templates por slug para os comandos prioritários
+- [x] Adicionar testes que diferenciem instruções substantivas entre slugs mapeados
